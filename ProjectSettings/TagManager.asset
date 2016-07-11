@@ -13,10 +13,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Tile
+  - Card
+  - Prop
   - 
   - 
   - 
@@ -43,4 +43,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1505583191
+    locked: 0
+  - name: Card
+    uniqueID: 1174961693
     locked: 0
