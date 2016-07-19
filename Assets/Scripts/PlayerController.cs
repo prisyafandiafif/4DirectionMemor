@@ -54,6 +54,7 @@ public class PlayerController : MonoBehaviour {
         } else {
             //If the player is using a functional card
             if (_barrierOnRoad != null && card.ThisCardType == Card.CardType.key) {
+                _hand.CardInEffectList.Remove(card.transform);
                 Destroy(card.gameObject, 1f);
                 Destroy(_barrierOnRoad);
                 _barrierOnRoad = null;
@@ -93,7 +94,6 @@ public class PlayerController : MonoBehaviour {
                 haveRoad = true;
             }
         }
-        Debug.Log(haveRoad);
         return haveRoad;
     }
 
