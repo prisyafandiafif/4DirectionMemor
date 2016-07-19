@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4DirectionMemor.CSharp.Plugins", "4DirectionMemor.CSharp.Plugins.csproj", "{B164B5AA-588E-2448-749E-5E647A568616}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4DirectionMemor.CSharp", "4DirectionMemor.CSharp.csproj", "{1A385EAE-5551-00BE-238F-EEB15A8BB41D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B164B5AA-588E-2448-749E-5E647A568616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B164B5AA-588E-2448-749E-5E647A568616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B164B5AA-588E-2448-749E-5E647A568616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B164B5AA-588E-2448-749E-5E647A568616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A385EAE-5551-00BE-238F-EEB15A8BB41D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A385EAE-5551-00BE-238F-EEB15A8BB41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A385EAE-5551-00BE-238F-EEB15A8BB41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A385EAE-5551-00BE-238F-EEB15A8BB41D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
